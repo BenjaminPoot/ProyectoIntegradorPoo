@@ -11,45 +11,45 @@ package Model;
 public class Persona {
     
     //attributes
-    private String nombre;
-    private String primerApellido;
-    private String segundoApellido;
-    private int telefono;
+    private String nombre_Persona;
+    private String primerApellido_Persona;
+    private String segundoApellido_Persona;
+    private int telefono_Persona;
 
     //getters and setters
-    public String getNombre() {
-        return nombre;
+    public String getNombre_Persona() {
+        return nombre_Persona;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombre_Persona(String nombre_Persona) {
+        this.nombre_Persona = nombre_Persona;
     }
 
-    public String getPrimerApellido() {
-        return primerApellido;
+    public String getPrimerApellido_Persona() {
+        return primerApellido_Persona;
     }
 
-    public void setPrimerApellido(String primerApellido) {
-        this.primerApellido = primerApellido;
+    public void setPrimerApellido_Persona(String primerApellido_Persona) {
+        this.primerApellido_Persona = primerApellido_Persona;
     }
 
-    public String getSegundoApellido() {
-        return segundoApellido;
+    public String getSegundoApellido_Persona() {
+        return segundoApellido_Persona;
     }
 
-    public void setSegundoApellido(String segundoApellido) {
-        this.segundoApellido = segundoApellido;
+    public void setSegundoApellido_Persona(String segundoApellido_Persona) {
+        this.segundoApellido_Persona = segundoApellido_Persona;
     }
 
-    public int getTelefono() {
-        return telefono;
+    public int getTelefono_Persona() {
+        return telefono_Persona;
     }
 
-    public void setTelefono(int telefono) {
-        this.telefono = telefono;
+    public void setTelefono_Persona(int telefono_Persona) {
+        this.telefono_Persona = telefono_Persona;
     }
-
     
+
     
     
     

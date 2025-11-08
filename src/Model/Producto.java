@@ -11,36 +11,36 @@ package Model;
 public class Producto {
     
     //attributes
-    private String nombre;
-    private String descripcion;
-    private double precio;
+    private String nombre_Producto;
+    private String descripcion_Producto;
+    private double precio_Producto;
 
     //getters and setters
-    public String getNombre() {
-        return nombre;
+    public String getNombre_Producto() {
+        return nombre_Producto;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setNombre_Producto(String nombre_Producto) {
+        this.nombre_Producto = nombre_Producto;
     }
 
-    public String getDescripcion() {
-        return descripcion;
+    public String getDescripcion_Producto() {
+        return descripcion_Producto;
     }
 
-    public void setDescripcion(String descripcion) {
-        this.descripcion = descripcion;
+    public void setDescripcion_Producto(String descripcion_Producto) {
+        this.descripcion_Producto = descripcion_Producto;
     }
 
-    public double getPrecio() {
-        return precio;
+    public double getPrecio_Producto() {
+        return precio_Producto;
     }
 
-    public void setPrecio(double precio) {
-        this.precio = precio;
+    public void setPrecio_Producto(double precio_Producto) {
+        this.precio_Producto = precio_Producto;
     }
     
     
     
-    
+        
 }
